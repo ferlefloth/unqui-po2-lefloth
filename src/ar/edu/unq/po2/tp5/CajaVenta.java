@@ -11,12 +11,12 @@ public class CajaVenta extends Caja implements Agencia{
 	
 	public void pagarServicio(Servicio servicio) {
 		this.monto = (servicio.costoUnidadConsumida() * servicio.cantidadesPorCiclo());
-		
+		//TODO: realizar el pagar impusto y ver como utilizar la interfaz
 	}
 	
 	public void pagarImpuesto() {
 		
-		
+		//TODO: realizar el pagar impusto y ver como utilizar la interfaz
 	}
 	
 	
